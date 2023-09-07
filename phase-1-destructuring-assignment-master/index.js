@@ -33,8 +33,6 @@ nestedPartner: 'Miss Piggy'
 
 
 
-
-
 const muppet = {
   muppetName: 'Miss Piggy',
   color: 'pink',
@@ -42,11 +40,6 @@ const muppet = {
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit'
 };
-
-
-
-
-const  { color, song, job , partner } = muppet;
 
 
 
