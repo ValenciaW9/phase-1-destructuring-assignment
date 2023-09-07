@@ -33,6 +33,3 @@ const muppet = {
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit',
 };
-
-
-
