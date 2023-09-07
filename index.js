@@ -1,5 +1,3 @@
-It appears that the code is now correctly structured and all the errors have been resolved. Here's the corrected code:
-
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 const [r, o, y, g, b, indg, v] = colors;
 
@@ -32,8 +30,6 @@ const nestedMuppet = {
 
 const { song2, song4, job: kermitJob, partner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
 
-const farmAnimals = 'cow horse sheep pig chicken';
-
 const [bessie, dolly, babe, little] = ['cow', 'sheep', 'pig', 'chicken'];
 const [blackAndWhite, black, pink] = ['cow', 'sheep', 'pig'];
-const [sound1, sound2, sound3, sound4, sound
+const [sound1, sound2, sound3, sound4, sound5] = ['moo', 'neigh', 'baa', 'oink', 'cluck'];
