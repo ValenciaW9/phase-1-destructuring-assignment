@@ -28,7 +28,7 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy',
 };
 
-const { song2, song4, job: kermitJob, partner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
+const { song2, song4, nestedJob: kermitJob, nestedPartner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
 
 const [bessie, dolly, babe, little] = ['cow', 'sheep', 'pig', 'chicken'];
 const [blackAndWhite, black, pink] = ['cow', 'sheep', 'pig'];
