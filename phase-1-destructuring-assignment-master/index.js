@@ -1,4 +1,4 @@
-const farmAnimals = 'cow horse sheep pig chicken';
+onst farmAnimals = 'cow horse sheep pig chicken';
 const [bessie, dolly, babe, little] = ['cow', 'sheep', 'pig', 'chicken'];
 const [blackAndWhite, black, pink] = ['cow', 'sheep', 'pig'];
 
@@ -14,7 +14,7 @@ const { muppetName, color, song, job, partner } = muppet;
 const { song2, song4, job: kermitJob, partner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
 
 
-const nestedMuppet = {
+const nested Muppet = {
   nestedName: 'Kermit',
   nestedColor: 'green',
   album : {
@@ -81,6 +81,8 @@ const nestedMuppet = {
 // 7. Use destructuring to assign all variables using the keys as the variable names
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+
+
 
 
 
