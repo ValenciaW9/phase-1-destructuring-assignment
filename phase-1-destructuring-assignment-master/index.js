@@ -31,10 +31,9 @@ nestedPartner: 'Miss Piggy'
 };
 
 
-const {muppetName, color, song ,job,  partner} = muppet;
 
 
-
+const { moppetName, color, song , job, partner} = muppet;
 
 const muppet = {
   muppetName: 'Miss Piggy',
@@ -47,7 +46,7 @@ const muppet = {
 
 
 
-const { muppetName, color, song, job, partner } = muppet;
+const  { color, song, job , partner } = muppet;
 
 
 
@@ -89,4 +88,6 @@ const nestedMuppet = {
 // 7. Use destructuring to assign all variables using the keys as the variable names
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+
+
 
