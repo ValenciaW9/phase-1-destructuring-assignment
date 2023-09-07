@@ -33,3 +33,6 @@ const muppet = {
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit',
 };
+
+
+/// Take a look in index.js. You'll see that we've given you several variables containing Strings, Arrays, and Objects. For this lab, you need to write several destructuring assignments for each. Specific instructions are provided at the bottom of the index.js file. Let the test output guide you through the process.
