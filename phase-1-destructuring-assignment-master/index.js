@@ -1,34 +1,14 @@
 const farmAnimals = 'cow horse sheep pig chicken';
-const [animal1, animal2, animal 3, animal 4 , aimal15] = farmAnimals.split('');
-const [animal1, animal2, animal3, animal4, animal5] = farmAnimals.split(' ');
-
+const [animal1, animal2, animal3, animal4 , animal5] = farmAnimals.split('');
+onst [animal1, animal2, animal3, animal4, animal15] = farmAnimals.split(' ');
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 const [color1, color2, color3, color4, color5, color6, color7] = colors;
 
 
-
 const { muppetName, color, song ,job,  partner} = muppet;
 
 
-
-
-
-
-
-
-const muppet = {
-  muppetName: 'Miss Piggy',
-  color: 'pink',
-  song: 'Never Before, Never Again',
-  job: 'Cast member of The Muppet Show',
-  partner: 'Kermit'
-};
-
-
-
-
-const { muppetName, color, song ,job,  partner} = muppet;
 
 
 
@@ -50,6 +30,32 @@ const nestedMuppet = {  ``
 };
 
 
+
+
+
+
+const { muppetName, color, song ,job,  partner} = muppet;
+
+
+
+
+
+
+
+const nestedMuppet = {
+  nestedName: 'Kermit',
+  nestedColor: 'green',
+  album: {
+    theMuppetMovie: {
+      song1: 'Rainbow Connection',
+      song2: 'Moving Right Along',
+      song3: 'Never Before, Never Again',
+      song4: 'I Hope That Something Better Comes Along',
+    },
+  },
+  nestedJob: 'Host of The Muppet Show',
+  nestedPartner: 'Miss Piggy'
+};
 
 
 
