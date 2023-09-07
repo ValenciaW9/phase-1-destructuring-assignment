@@ -1,15 +1,17 @@
-const farmAnimals = 'cow horse sheep pig chicken';
-const [bessie, dolly, babe, little] = ['cow', 'sheep', 'pig', 'chicken'];
-const [blackAndWhite, black, pink] = ['cow', 'sheep', 'pig'];
-const [sound1, sound2, sound3, sound4, sound5] = ['moo', 'neigh', 'baa', 'oink', 'cluck'];
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-const [r, o, y, g, b, , v] = colors;
-const [, , , , , indg] = colors;
+const [r, o, y, g, b, indg, v] = colors;
 
 const [color1, color2, color3, color4, color5, color6, color7] = colors;
-const { muppetName, color, song, job, partner } = muppet;
 
-const { song2, song4, job: kermitJob, partner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
+const muppet = {
+  muppetName: 'Miss Piggy',
+  color: 'pink',
+  song: 'Never Before, Never Again',
+  job: 'Cast member of The Muppet Show',
+  partner: 'Kermit',
+};
+
+const { muppetName, color, song, job, partner } = muppet;
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -26,13 +28,10 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy',
 };
 
-const muppet = {
-  muppetName: 'Miss Piggy',
-  color: 'pink',
-  song: 'Never Before, Never Again',
-  job: 'Cast member of The Muppet Show',
-  partner: 'Kermit',
-};
+const { song2, song4, job: kermitJob, partner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
 
+const farmAnimals = 'cow horse sheep pig chicken';
 
-/// Take a look in index.js. You'll see that we've given you several variables containing Strings, Arrays, and Objects. For this lab, you need to write several destructuring assignments for each. Specific instructions are provided at the bottom of the index.js file. Let the test output guide you through the process.
+const [bessie, dolly, babe, little] = ['cow', 'sheep', 'pig', 'chicken'];
+const [blackAndWhite, black, pink] = ['cow', 'sheep', 'pig'];
+const [sound1, sound2, sound3, sound4, sound5] = ['moo', 'neigh', 'baa', 'oink', 'cluck'];
