@@ -1,6 +1,4 @@
-const dogsName = 'Sir Woody BarjsAlot';
-const [title, , lastName] = dogsName.split(' ');
-console.log(title, lastName); // LOG: Sir BarjsAlot
+onsole.log(title, lastName); // LOG: Sir BarjsAlot
 
 // Code snippet 2 - Destructuring assignment with object
 
