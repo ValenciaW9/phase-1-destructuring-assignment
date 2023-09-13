@@ -1,5 +1,3 @@
-// Code snippet 1 - Destructuring assignment with string
-
 const dogsName = 'Sir Woody BarjsAlot';
 const [title, , lastName] = dogsName.split(' ');
 console.log(title, lastName); // LOG: Sir BarjsAlot
@@ -19,7 +17,7 @@ console.log(breed); // Output: Great Pyrenees
 
 // Code snippet 3 - Destructuring assignment with nested object
 
-const doggie = {
+const doggieNested = {
   name: 'Buzz',
   breed: 'Great Pyrenees',
   furColor: 'black and white',
@@ -35,7 +33,7 @@ const doggie = {
   }
 };
 
-const { ham, hotDog } = doggie.favoriteFoods.meats;
+const { ham, hotDog } = doggieNested.favoriteFoods.meats;
 console.log(ham); // Output: smoked
 console.log(hotDog); // Output: Oscar Meyer
 
@@ -47,6 +45,6 @@ console.log(small, giant); // LOG: Pug Bull Mastiff
 
 // Code snippet 5 - Destructuring assignment with array from string split
 
-const dogsName = 'Sir Woody BarksALot';
-const [title, firstName, lastName] = dogsName.split(' ');
-console.log(title, firstName, lastName); // LOG: Sir Woody BarksALot
+const dogsNameSplit = 'Sir Woody BarksALot';
+const [titleSplit, firstName, lastNameSplit] = dogsNameSplit.split(' ');
+console.log(titleSplit, firstName, lastNameSplit); // LOG: Sir Woody BarksALot
