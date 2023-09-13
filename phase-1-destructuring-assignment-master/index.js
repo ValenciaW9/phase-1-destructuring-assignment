@@ -1,37 +1,57 @@
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-const [r, o, y, g, b, indg, v] = colors;
+const doggie = {
+  name: 'Buzz',
+  breed: 'Great Pyrenees',
+  furColor: 'black and white',
+  activityLevel: 'sloth-like',
+  favoriteFood: 'hot dogs'
+  };
+  
+  const { name, breed } = doggie;
+  name; // => "Buzz"
+  breed; // => "Great Pyrenees"
 
-const [color1, color2, color3, color4, color5, color6, color7] = colors;
-
-const muppet = {
-  muppetName: 'Miss Piggy',
-  color: 'pink',
-  song: 'Never Before, Never Again',
-  job: 'Cast member of The Muppet Show',
-  partner: 'Kermit',
+  
+const doggie = {
+name: 'Buzz',
+breed: 'Great Pyrenees',
+furColor: 'black and white',
+activityLevel: 'sloth-like',
+favoriteFood: 'hot dogs'
 };
 
-const { muppetName, color, song, job, partner } = muppet;
+const { name, breed } = doggie;
+name; // => "Buzz"
+breed; // => "Great Pyrenees"
+``
 
-const nestedMuppet = {
-  nestedName: 'Kermit',
-  nestedColor: 'green',
-  album: {
-    theMuppetMovie: {
-      song1: 'Rainbow Connection',
-      song2: 'Moving Right Along',
-      song3: 'Never Before, Never Again',
-      song4: 'I Hope That Something Better Comes Along',
-    },
-  },
-  nestedJob: 'Host of The Muppet Show',
-  nestedPartner: 'Miss Piggy',
+
+const doggie = {
+name: 'Buzz',
+breed: 'Great Pyrenees',
+furColor: 'black and white',
+activityLevel: 'sloth-like',
+favoriteFoods: {
+meats:{
+ham: 'smoked',
+hotDog: 'Oscar Meyer',
+},
+cheeses:{
+american: 'kraft'
+}
+}
 };
 
-const { song2, song4, nestedJob: kermitJob, nestedPartner: kermitPartner } = nestedMuppet.album.theMuppetMovie;
+const { ham, hotDog } = doggie.favoriteFoods.meats;
+ham; // => "smoked"
+hotDog; // => "Oscar Meyer"
+``
+javascript
+const dogs = ['Great Pyrenees', 'Pug', 'Bull Mastiff'];
+const [, small, giant] = dogs;
+console.log(small, giant); // LOG: Pug Bull Mastiff
 
-const farmAnimals = 'cow horse sheep pig chicken';
+const dogsName = 'Sir Woody BarksALot';
+const [title, firstName, lastName] = dogsName.split(' ');
+console.log(title, firstName, lastName); // LOG: Sir Woody BarksALot
 
-const [bessie, dolly, babe, little] = ['cow', 'sheep', 'pig', 'chicken'];
-const [blackAndWhite, black, pink] = ['cow', 'sheep', 'pig'];
-const [sound1, sound2, sound3, sound4, sound5] = ['moo', 'neigh', 'baa', 'oink', 'cluck'];
+
